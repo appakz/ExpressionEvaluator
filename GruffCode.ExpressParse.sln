@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GruffCode.ExpressParse", "GruffCode.ExpressParse\GruffCode.ExpressParse.csproj", "{B48BE954-CEDA-4ED0-A0D0-E0F4211E5DF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GruffCode.ExpressParse.Tests", "GruffCode.ExpressParse.Tests\GruffCode.ExpressParse.Tests.csproj", "{765F9A17-F4D9-4D8C-9D09-88E56C2161F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B48BE954-CEDA-4ED0-A0D0-E0F4211E5DF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B48BE954-CEDA-4ED0-A0D0-E0F4211E5DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B48BE954-CEDA-4ED0-A0D0-E0F4211E5DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B48BE954-CEDA-4ED0-A0D0-E0F4211E5DF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{765F9A17-F4D9-4D8C-9D09-88E56C2161F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{765F9A17-F4D9-4D8C-9D09-88E56C2161F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{765F9A17-F4D9-4D8C-9D09-88E56C2161F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{765F9A17-F4D9-4D8C-9D09-88E56C2161F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
