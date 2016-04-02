@@ -3,15 +3,16 @@ namespace GruffCode.ExpressParse
 {
     public class Parser
     {
+        private readonly ITokenizer tokenizer;
+
+        public Parser(ITokenizer tokenizer)
+        {
+            this.tokenizer = tokenizer;
+        }
+
         public double Parse(string expression)
         {
-            double parseResult;
-            if (!double.TryParse(expression, out parseResult))
-            {
-                throw new InvalidExpressionException();
-            }
-
-            return parseResult;
+            return 0f;
         }
     }
 }
